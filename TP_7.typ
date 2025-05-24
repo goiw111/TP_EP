@@ -74,6 +74,12 @@ Vérification de la nature sinusoïdale de la tension de sortie.
 #figure(
       image("MLI TP7.jpeg")
     )
+== Partie 3: Commande MLI avec charge inductive
+La charge inductive est remplacée par trois générateurs de courants sinusoïdaux correspondant aux fondamentaux des courants i1, i2, i3, d’amplitude Io=5A, de fréquence 50Hz, et déphasés de 120o.
+On ajoute des résistances de valeur importante 10kΩ, en parallèles sur chaque générateur de courant, afin de permettre le calcul des tensions simples par SIMULINK.
+#figure(
+      image("MLI charge inductive.jpeg")
+    )
 == Conclusion
 La commande pleine onde, où chaque interrupteur conduit pendant 180°, génère des tensions de sortie en créneaux avec des harmoniques élevés. Simple à mettre en œuvre, elle est adaptée aux applications robustes ne nécessitant pas une qualité de signal optimale (ex: moteurs asynchrones). Cependant, son facteur de puissance et son rendement sont inférieurs à ceux de la MLI en raison des pertes par commutation et de la distortion harmonique. Son principal avantage réside dans sa simplicité et sa fiabilité pour des charges peu sensibles aux harmoniques.
 
