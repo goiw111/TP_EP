@@ -23,27 +23,27 @@ Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courant
 2.1.	Préciser la séquence de commande des interrupteurs
 L’interrepteur K1 :
 #figure(
-      image("TP_3.png")
+      image("K1.png")
     )
 L’interrepteur K1' :
 #figure(
-      image("TP_3.png")
+      image("K1'.png")
     )
 L’interrepteur K2 :
 #figure(
-      image("TP_3.png")
+      image("K2.png")
     )
 L’interrepteur K2' :
 #figure(
-      image("TP_3.png")
+      image("K2'.png")
     )
 L’interrepteur K3 :
 #figure(
-      image("TP_3.png")
+      image("K3.png")
     )
 L’interrepteur K3' :
 #figure(
-      image("TP_3.png")
+      image("K3'.png")
     )
 Relever les formes d’ondes des tensions composées, U12(t), U23(t), U31(t). Etablir l’expression de Ucheff., en fonction de E.
 #figure(
