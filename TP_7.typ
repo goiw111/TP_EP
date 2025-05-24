@@ -17,7 +17,7 @@ Chaque interrupteur est fermé pendant T/2. Les transistors sont commandés selo
 - T’3 : 60°–240°
 Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courants de ligne, évaluation de la puissance Pc.
 #figure(
-      image("TP_3.png")
+      image("6.png")
     )
 == Travaille à effectuer
 === Préciser la séquence de commande des interrupteurs
