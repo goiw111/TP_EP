@@ -13,10 +13,17 @@
 )
 
 #include "TP_1.typ"
+#pagebreak()
 #include "TP_2.typ"
+#pagebreak()
 #include "TP_3.typ"
+#pagebreak()
 #include "TP_4.typ"
+#pagebreak()
 #include "TP_5.typ"
+#pagebreak()
 #include "TP_6.typ"
+#pagebreak()
 #include "TP_7.typ"
+#pagebreak()
 #include "TP_8.typ"
