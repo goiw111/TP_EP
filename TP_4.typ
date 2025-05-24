@@ -81,4 +81,5 @@ On a le facteur de puissance :
 5. Moyenne et efficace de ID et I.
 ==== Étude des puissances 
 6. Calculs de S, P, facteur de puissance fp, et puissance réactive Q.
+= Cnoclusion
 
