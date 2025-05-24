@@ -125,3 +125,5 @@
 
     - La tension moyenne décroît avec l’augmentation de l’angle α, selon la loi :
       $ angle.l V_"ch" angle.r = frac(3 sqrt(3.2) V_"eff" cos(α),2 pi) $
+  
+  
