@@ -1,4 +1,4 @@
-= TP7 : Redresseur Triphasé à Thyristors (PD3T)
+= TP7 : Onduleur Triphasé
 \
 *Objectif :* Étudier la commande des thyristors dans un pont triphasé PD3T et l’évolution de la tension selon l’angle ψ.
 *Manipulations :*
@@ -53,9 +53,13 @@ Le graphe des tension U12, U23 et U31
 #figure(
       image("Picture1.png")
     )
-=== Représenter les tensions simples V1N, V2N, V3N. Etablir l’expression de Vcheff., en fonction de E. 
+=== Représenter les tensions simples V1N, V2N, V3N. Etablir l’expression de $V_"cheff"$ en fonction de E. 
 #figure(
       image("V1 V2 V3 TP7.png")
+    )
+La valeur de tension efficace $V_"cheff"$ vaut:
+    #figure(
+      image("Vcheff TP7.png")
     )
 === Donner l’expression du courant de ligne i1(t)
 === Calculer la puissance Pc reçue par la charge 
@@ -66,5 +70,21 @@ Signaux de commande obtenus par comparaison : sinusoïde modulante vs signal tri
 Paramètres : m = 0.6, p = 6. Étude pour m = 0.8.
 Mesures : U12, V1N, i1, ik1, ik’1, Ueff, Veff, Ieff, puissance Ps et Pc.
 Vérification de la nature sinusoïdale de la tension de sortie.
+
+#figure(
+      image("MLI TP7.jpeg")
+    )
+== Conclusion
+La commande pleine onde, où chaque interrupteur conduit pendant 180°, génère des tensions de sortie en créneaux avec des harmoniques élevés. Simple à mettre en œuvre, elle est adaptée aux applications robustes ne nécessitant pas une qualité de signal optimale (ex: moteurs asynchrones). Cependant, son facteur de puissance et son rendement sont inférieurs à ceux de la MLI en raison des pertes par commutation et de la distortion harmonique. Son principal avantage réside dans sa simplicité et sa fiabilité pour des charges peu sensibles aux harmoniques.
+
+La commande MLI, basée sur la comparaison d'une sinusoïde modulante et d'un signal triangulaire porteuse (paramètres m=0.6, p=6), permet de générer des tensions de sortie quasi-sinusoïdales avec une ondulation réduite. Pour m=0.8, les mesures des tensions (U₁₂, V₁ₙ), courants (i₁, iₖ₁, iₖ'₁) et puissances (Pₛ, P꜀) confirment l'efficacité de cette technique, offrant un excellent compromis entre qualité du signal et performance énergétique, tout en maintenant un facteur de distortion harmonique faible. La nature sinusoïdale de la tension de sortie est ainsi validée, démontrant l'adéquation de la MLI pour des applications nécessitant des signaux propres et stables.
+
+*Comparaison avec la MLI :*
+
+- Avantage MLI : Qualité de signal supérieure (faible THD), meilleur rendement.
+- Avantage Pleine Onde : Simplicité de commande, coût réduit.
+Choix selon l’application : MLI pour les charges sensibles, pleine onde pour les systèmes économiques.
+
+
 
 
