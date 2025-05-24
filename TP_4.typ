@@ -1,7 +1,7 @@
-= TP1 : Redressement Triphasé Double Alternance
- 
+= TP4 : Redressement Triphasé Double Alternance
+ \
 *Objectif :* Montrer que l’ondulation en sortie est très faible en triphasé par rapport au monophasé, et que l’inductance de lissage peut être plus faible pour obtenir un courant redressé peu ondulé.
-== Association transformateur triphasé et redresseur PD3 à diodes 
+== Partie1: Association transformateur triphasé et redresseur PD3 à diodes 
 === Types des transformateurs 
 ==== Transformateur triphasé Y-Y
 Un transformateur triphasé en Y-Y, aussi appelé "étoile-étoile", est une configuration où les enroulements primaires et secondaires sont tous deux connectés en étoile, avec un point neutre disponible à chaque niveau.Ce type de couplage est couramment utilisé dans les transformateurs de distribution pour alimenter des charges triphasées et monophasées. Le point neutre permet un équilibrage des charges et une meilleure sécurité. 
@@ -46,5 +46,40 @@ L’observation des courants ich et iD1 permet de suivre la circulation du coura
 ==== Comparaison de <Uch> théorique et expérimental 
 Calcule de la valeur moyenne de Uch théoriquement :
 #figure(
-      image("TP4_qst4.png")
+      image("Vch Moy TP4.png")
     )
+#figure(
+      image("eq Vch.png")
+    )
+#figure(
+      image("2 eq Vch.png")
+    )
+Dans simlulink on a trouvé 655.1 et ar le calcule on a trouvé 628.515 il ya un marge d’erreur mais ils sont proches.
+==== Comparaison P3 à diodes / PD3 à diodes
+On a le facteur de puissance :
+#figure(
+      image("facteur K.png")
+    )
+\
+== Partie 2: Redressement Triphasé – Charge RL
+\
+*Objectif :* Étudier la sortie du pont PD3 alimentant une charge inductive équivalente à une source de courant I0 = 7.2 A.
+#figure(
+      image("7.PNG")
+    )
+ === Travail à effectuer
+==== Étude des tensions 
+1. Tracer Uch(θ) et identifier les intervalles de conduction:
+#figure(
+      image("6.PNG")
+    )
+2. Déterminer l’indice de pulsation p.
+
+3. Exprimer Uch en fonction de V.
+==== Étude des courants 
+4. Courant dans diode D1 : iD1(θ).
+5. Moyenne et efficace de ID et I.
+==== Étude des puissances 
+6. Calculs de S, P, facteur de puissance fp, et puissance réactive Q.
+= Cnoclusion
+
