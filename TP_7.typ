@@ -7,7 +7,7 @@
 - Mesures : $U_"chmoy"$, $U_"cheff"$, $I_"chmoy"$, $I_"cheff"$, ainsi que les valeurs efficaces et moyennes des thyristors.
 *Partie :* Onduleur Triphasé – Commande Pleine Onde
 *Objectif :* Relever et analyser les formes d’ondes à la sortie d’un onduleur triphasé sous deux types de commande : pleine onde et MLI.
-== Commande pleine onde
+== Partie 1: Commande pleine onde
 Chaque interrupteur est fermé pendant T/2. Les transistors sont commandés selon :
 - T1 : 0°–180°
 - T2 : 120°–300°
@@ -65,7 +65,7 @@ La valeur de tension efficace $V_"cheff"$ vaut:
 === Calculer la puissance Pc reçue par la charge 
 === Exprimer iTi, et iDi en fonction de iki et du signe de iki. 
 
-== Commande MLI
+== Partie 2: Commande MLI
 Signaux de commande obtenus par comparaison : sinusoïde modulante vs signal triangulaire porteuse.
 Paramètres : m = 0.6, p = 6. Étude pour m = 0.8.
 Mesures : U12, V1N, i1, ik1, ik’1, Ueff, Veff, Ieff, puissance Ps et Pc.
