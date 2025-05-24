@@ -7,7 +7,7 @@
 - Mesures : $U_"chmoy"$, $U_"cheff"$, $I_"chmoy"$, $I_"cheff"$, ainsi que les valeurs efficaces et moyennes des thyristors.
 *Partie :* Onduleur Triphasé – Commande Pleine Onde
 *Objectif :* Relever et analyser les formes d’ondes à la sortie d’un onduleur triphasé sous deux types de commande : pleine onde et MLI.
-1.	Commande pleine onde
+== Commande pleine onde
 Chaque interrupteur est fermé pendant T/2. Les transistors sont commandés selon :
 - T1 : 0°–180°
 - T2 : 120°–300°
@@ -19,49 +19,49 @@ Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courant
 #figure(
       image("TP_3.png")
     )
-2.	Travaille à effectuer
-2.1.	Préciser la séquence de commande des interrupteurs
-L’interrepteur K1 :
+== Travaille à effectuer
+=== Préciser la séquence de commande des interrupteurs
+*L’interrepteur K1 :*
 #figure(
       image("K1.png")
     )
-L’interrepteur K1' :
+*L’interrepteur K1' :*
 #figure(
       image("K1'.png")
     )
-L’interrepteur K2 :
+*L’interrepteur K2 :*
 #figure(
       image("K2.png")
     )
-L’interrepteur K2' :
+*L’interrepteur K2' :*
 #figure(
       image("K2'.png")
     )
-L’interrepteur K3 :
+*L’interrepteur K3 :*
 #figure(
       image("K3.png")
     )
-L’interrepteur K3' :
+*L’interrepteur K3' :*
 #figure(
       image("K3'.png")
     )
-Relever les formes d’ondes des tensions composées, U12(t), U23(t), U31(t). Etablir l’expression de Ucheff., en fonction de E.
+=== Relever les formes d’ondes des tensions composées, U12(t), U23(t), U31(t). Etablir l’expression de Ucheff., en fonction de E.
 #figure(
-      image("TP_3.png")
+      image("tension composee.PNG")
     )
 Le graphe des tension U12, U23 et U31 
 #figure(
-      image("TP_3.png")
+      image("Picture1.png")
     )
-2.3.	Représenter les tensions simples V1N, V2N, V3N. Etablir l’expression de Vcheff., en fonction de E. 
+=== Représenter les tensions simples V1N, V2N, V3N. Etablir l’expression de Vcheff., en fonction de E. 
 #figure(
-      image("TP_3.png")
+      image("V1 V2 V3 TP7.png")
     )
-2.4. Donner l’expression du courant de ligne i1(t)
-2.5.	Calculer la puissance Pc reçue par la charge 
-2.6.	Exprimer iTi, et iDi en fonction de iki et du signe de iki. 
+=== Donner l’expression du courant de ligne i1(t)
+=== Calculer la puissance Pc reçue par la charge 
+=== Exprimer iTi, et iDi en fonction de iki et du signe de iki. 
 
-Commande MLI
+== Commande MLI
 Signaux de commande obtenus par comparaison : sinusoïde modulante vs signal triangulaire porteuse.
 Paramètres : m = 0.6, p = 6. Étude pour m = 0.8.
 Mesures : U12, V1N, i1, ik1, ik’1, Ueff, Veff, Ieff, puissance Ps et Pc.
