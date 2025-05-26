@@ -20,33 +20,33 @@ En système triphasé, les tensions composées sont les tensions mesurées entre
 ==== Montage réalisé 
 Pont redresseur PD3 à 6 diodes, alimenté par un réseau triphasé (220/380 V, 50 Hz) Avec un transformateur Y-Y, rapport de transformation m = 0.5.
 #figure(
-      image("TP4 valeur moyenne.PNG")
+      image("TP4 valeur moyenne.PNG"),caption: "Montage du redresseur PD3 sur Simulink"
     )
 ==== Mesures
 1. Tensions simples V1N, V2N et V3N
 L’oscilloscope permet d’observer les tensions simples du système triphasé, décalées de 120°, comme illustré sur le graphe ci-dessous :
 #figure(
-      image("TP4_V1_V2_V3.PNG")
+      image("TP4_V1_V2_V3.PNG"), caption:"Tensions simples V1N, V2N et V3N"
     )
 2. Tensions composées : U12, U23 et U31
 La visualisation des tensions composées révèle des formes d’onde typiques, représentant les différences de potentiel entre phases, comme montré ci-dessous.
 #figure(
-      image("TP4_U12_U23_U31.png")
+      image("TP4_U12_U23_U31.png"), caption:"Tensions composées : U12, U23 et U31"
     )
 3. Tension redressée : Uch, UD1, UD’1
 La visualisation des tensions Uch, UD1 et UD’1 permet d’analyser le rôle de chaque diode dans le processus de redressement. On distingue clairement les phases de conduction alternée des diodes, contribuant à la continuité de la tension Uch. Cette représentation met en évidence le lissage partiel apporté par la configuration triphasée, comparé au redressement monophasé.
 #figure(
-      image("TP4_qst3.png")
+      image("TP4_qst3.png"), caption:"tension de D1, D1' et Uch de sortie"
     )
 4. Courants : ich, iD1
 L’observation des courants ich et iD1 permet de suivre la circulation du courant à travers la charge et les diodes. Le courant ich reste quasi continu grâce à l'effet de lissage naturel du système triphasé, tandis que le courant iD1 révèle les intervalles précis de conduction de la diode D1. Cette analyse met en lumière la répartition cyclique du courant entre les différentes branches du redresseur.
 #figure(
-      image("TP4_qst4.png")
+      image("TP4_qst4.png"), caption: "le courant de D1 et le courant de sortie ich"
     )
-==== Comparaison de <Uch> théorique et expérimental 
+==== Comparaison de $<U_"ch">$ théorique et expérimental 
 Calcule de la valeur moyenne de Uch théoriquement :
 #figure(
-      image("Vch Moy TP4.png")
+      image("Vch Moy TP4.png"), caption:"représentation de tension simle de sortie et des intervalles de conduction"
     )
 #figure(
       image("eq Vch.png")
@@ -65,23 +65,31 @@ On a le facteur de puissance :
 \
 *Objectif :* Étudier la sortie du pont PD3 alimentant une charge inductive équivalente à une source de courant I0 = 7.2 A.
 #figure(
-      image("7.PNG")
+      image("7.PNG"), caption:"Circuit du Redressement Triphasé, Charge RL dans Simulink"
     )
  === Travail à effectuer
 ==== Étude des tensions 
 1. Tracer Uch(θ) et identifier les intervalles de conduction:
 
 #figure(
+<<<<<<< HEAD
   image("6.png")
 )
 
+=======
+      image("6.PNG"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
+    )
+>>>>>>> c7e1b6b2c0ec343c7d8488704d4706ae2df2cd89
 2. Déterminer l’indice de pulsation p.
+*Définition de l'indice de pulsation P:* représente le nombre de phases × le nombre d'alternances par période.
+Dans notre cas pour un redresseur triphasé double alternance (P3) : $P= 2*3 =6$
 
 3. Exprimer Uch en fonction de V.
+
 ==== Étude des courants 
 4. Courant dans diode D1 : iD1(θ).
 5. Moyenne et efficace de ID et I.
 ==== Étude des puissances 
 6. Calculs de S, P, facteur de puissance fp, et puissance réactive Q.
-= Cnoclusion
+= Conclusion
 
