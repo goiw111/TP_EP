@@ -1,5 +1,5 @@
 #pagebreak()
-== HACHEUR DEVOLTEUR VARIATEUR DE VITESSE POUR MACHINE A COURANT CONTINU
+= TP 5: HACHEUR DEVOLTEUR VARIATEUR DE VITESSE POUR MACHINE A COURANT CONTINU
 \
 
 - 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour $$

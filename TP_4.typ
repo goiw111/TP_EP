@@ -70,9 +70,11 @@ On a le facteur de puissance :
  === Travail à effectuer
 ==== Étude des tensions 
 1. Tracer Uch(θ) et identifier les intervalles de conduction:
+
 #figure(
-      image("6.PNG")
-    )
+  image("6.png")
+)
+
 2. Déterminer l’indice de pulsation p.
 
 3. Exprimer Uch en fonction de V.
