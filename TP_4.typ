@@ -70,9 +70,20 @@ On a le facteur de puissance :
  === Travail à effectuer
 ==== Étude des tensions 
 1. Tracer Uch(θ) et identifier les intervalles de conduction:
+
 #figure(
+<<<<<<< HEAD
       image("TP4_Ud1_Ud1'_Uch.png"), caption:"Le graphe de Uch avec les intervalles de conductions"
+=======
+<<<<<<< HEAD
+  image("6.png")
+)
+
+=======
+      image("6.PNG"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
+>>>>>>> eb2e706c85a0b17bdd5f3e503802a6237a3bff8e
     )
+>>>>>>> c7e1b6b2c0ec343c7d8488704d4706ae2df2cd89
 2. Déterminer l’indice de pulsation p.
 *Définition de l'indice de pulsation P:* représente le nombre de phases × le nombre d'alternances par période.
 Dans notre cas pour un redresseur triphasé double alternance (P3) : $P= 2*3 =6$
