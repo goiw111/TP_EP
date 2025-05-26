@@ -26,27 +26,27 @@ Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courant
 === Préciser la séquence de commande des interrupteurs
 *L’interrepteur K1 :*
 #figure(
-      image("K1.png")
+      image("K1.PNG")
     )
 *L’interrepteur K1' :*
 #figure(
-      image("K1'.png")
+      image("K1'.PNG")
     )
 *L’interrepteur K2 :*
 #figure(
-      image("K2.png")
+      image("K2.PNG")
     )
 *L’interrepteur K2' :*
 #figure(
-      image("K2'.png")
+      image("K2'.PNG")
     )
 *L’interrepteur K3 :*
 #figure(
-      image("K3.png")
+      image("K3.PNG")
     )
 *L’interrepteur K3' :*
 #figure(
-      image("K3'.png")
+      image("K3'.PNG")
     )
 === Relever les formes d’ondes des tensions composées, U12(t), U23(t), U31(t). Etablir l’expression de Ucheff., en fonction de E.
 #figure(
@@ -93,7 +93,3 @@ La commande MLI, basée sur la comparaison d'une sinusoïde modulante et d'un si
 - Avantage MLI : Qualité de signal supérieure (faible THD), meilleur rendement.
 - Avantage Pleine Onde : Simplicité de commande, coût réduit.
 Choix selon l’application : MLI pour les charges sensibles, pleine onde pour les systèmes économiques.
-
-
-
-

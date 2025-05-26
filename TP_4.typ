@@ -85,7 +85,7 @@ $U_"ch"=3 sqrt(3)/pi *V_"max"=3sqrt(3)*sqrt(2)/pi *V$
 ==== Étude des courants 
 4. Courant dans diode D1 : iD1(θ).
 #figure(
-      image("6.PNG"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
+      image("6.png"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
     )
 5. Moyenne et efficace de ID et I.
 #figure(

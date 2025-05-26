@@ -10,7 +10,7 @@
   Si la période est TT, alors :
     - K1 conduit pour $0≤t < α T$
     - K2 conduit pour $α T ≤ t < T $
-- 3. La tension uch est-elle sinusoïdale ? Alternative ?
+- 3. La tension $U_"ch"$ est-elle sinusoïdale ? Alternative ?
   
   Ce n’est pas sinusoïdal.
 
@@ -19,4 +19,5 @@
   
 
 - 5. Calculer la valeur moyenne $angle.l u_"ch" angle.r$ de uch.
+
 - 6. Calculer la valeur efficace de $u_"ch"$.
