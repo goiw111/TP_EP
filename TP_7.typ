@@ -1,6 +1,9 @@
 = TP7 : Onduleur Triphasé
 \
 *Objectif :* Étudier la commande des thyristors dans un pont triphasé PD3T et l’évolution de la tension selon l’angle ψ.
+*fonctionnement d'onduleur*
+Un onduleur fonctionne en convertissant une source de courant continu (CC) en courant alternatif (CA), offrant ainsi une alimentation de secours en cas de coupure de courant. Cette conversion est essentielle pour maintenir l'alimentation électrique de certains appareils, notamment les ordinateurs, en cas de panne. 
+
 *Manipulations :*
 - Étude pour angle de commande ψ = 120° : uc, ic, intervalles de conduction.
 - Étude pour ψ = 45°.

@@ -72,24 +72,28 @@ On a le facteur de puissance :
 1. Tracer Uch(θ) et identifier les intervalles de conduction:
 
 #figure(
-<<<<<<< HEAD
-  image("6.png")
+      image("TP4_Ud1_Ud1'_Uch.png"), caption:"Le graphe de Uch avec les intervalles de conductions"
 )
 
-=======
-      image("6.PNG"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
-    )
->>>>>>> c7e1b6b2c0ec343c7d8488704d4706ae2df2cd89
 2. Déterminer l’indice de pulsation p.
 *Définition de l'indice de pulsation P:* représente le nombre de phases × le nombre d'alternances par période.
 Dans notre cas pour un redresseur triphasé double alternance (P3) : $P= 2*3 =6$
 
 3. Exprimer Uch en fonction de V.
+$U_"ch"=3 sqrt(3)/pi *V_"max"=3sqrt(3)*sqrt(2)/pi *V$
 
 ==== Étude des courants 
 4. Courant dans diode D1 : iD1(θ).
+#figure(
+      image("6.PNG"), caption:"Le graphe iD1 du diode 1 et ich du sortie"
+    )
 5. Moyenne et efficace de ID et I.
+#figure(
+      image("les valeurs moyenne des id1 et ich.PNG"), caption:"Les valeurs moyennes et efficaces de iD1 et ich"
+    )
+    La moyenne des deux tensions est nulle, ce qui résulte probablement d'une erreur minime et difficilement détectable.
 ==== Étude des puissances 
 6. Calculs de S, P, facteur de puissance fp, et puissance réactive Q.
 = Conclusion
+Cette étude a clairement mis en évidence les avantages du redressement triphasé par rapport au monophasé, notamment en termes de réduction significative de l'ondulation en sortie. La structure PD3, combinée à une charge inductive, permet d'obtenir un courant redressé particulièrement stable avec une inductance de lissage minimale, confirmant ainsi son efficacité et son intérêt pour les applications industrielles nécessitant une alimentation continue de qualité. Les résultats obtenus soulignent l'importance du choix de la topologie de redressement pour optimiser les performances et réduire les coûts des composants de filtrage.
 
