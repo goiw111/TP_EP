@@ -11,7 +11,7 @@
     image("0.jpeg")
   )
 
-- 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour $$
+- 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour
   #figure(
     image("T5 impulsions.png")
   )
@@ -27,7 +27,10 @@
 $T=2s$ alors $f=1/T = 1/2 = 0.5 "Hz"$
   
 
-- 5. Calculer la valeur moyenne $angle.l u_"ch" angle.r$ de uch.
+- 5. Calculer la valeur moyenne $angle.l u_"ch" angle.r$ de $U_"ch"$.
+#figure(
+    image("0Vmoy.jpeg")
+  )
 - 6. Calculer la valeur efficace de $u_"ch"$.
 $V_"eff" = V_"max" * sqrt(2)=100*sqrt(2)=141.421 V$
 

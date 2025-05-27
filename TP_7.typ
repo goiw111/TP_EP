@@ -26,7 +26,7 @@ Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courant
 === Préciser la séquence de commande des interrupteurs
 *L’interrepteur K1 :*
 #figure(
-      image("K1.PNG")
+      image("K1.PNG",width: 75%)
     )
 *L’interrepteur K1' :*
 #figure(
