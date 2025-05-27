@@ -13,7 +13,7 @@
 
 - 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour
   #figure(
-    image("T5 impulsions.png")
+    image("T5 impulsions.png"),caption:"les impulsions de Vch et ich"
   )
 - 2. Donner les intervalles de conduction des interrupteurs
   Si la période est TT, alors :
@@ -29,7 +29,7 @@ $T=2s$ alors $f=1/T = 1/2 = 0.5 "Hz"$
 
 - 5. Calculer la valeur moyenne $angle.l u_"ch" angle.r$ de $U_"ch"$.
 #figure(
-    image("0Vmoy.jpeg")
+    image("0Vmoy.jpeg"),caption:"Valeur moyenne Uch"
   )
 - 6. Calculer la valeur efficace de $u_"ch"$.
 $V_"eff" = V_"max" * sqrt(2)=100*sqrt(2)=141.421 V$
@@ -38,8 +38,12 @@ $V_"eff" = V_"max" * sqrt(2)=100*sqrt(2)=141.421 V$
 === Variateur de vitesse
 1. Tracer l'allure de la tension de charge u_MCC.
 K1 passant : u_MCC=E =V_DC1 K2 passant : u_MCC=0
+Le circuit de la simulation est comme ci-dessous:
 #figure(
-    image("TP5_circuit2.png")
+    image("00.jpeg"), caption:"Montage de variateur de vitesse sur simulink"
+  )
+#figure(
+    image("TP5_circuit2.png"), caption:"Le graphe du variateur de vitesse "
   )
 2. Déterminer l'expression de la valeur moyenne de la tension de charge.
 Dans le troisième graphe, la courbe en blue représente la valeur moyenne de $U_"ch"$ qui se stabilise en $U_"chmoy"=20 V$ 
