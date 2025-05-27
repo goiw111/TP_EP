@@ -26,27 +26,27 @@ Simulation sur charge R = 10Ω, L = 40mH. Visualisation des tensions et courant
 === Préciser la séquence de commande des interrupteurs
 *L’interrepteur K1 :*
 #figure(
-      image("K1.png")
+      image("K1.PNG",width: 75%)
     )
 *L’interrepteur K1' :*
 #figure(
-      image("K1'.png")
+      image("K1'.PNG")
     )
 *L’interrepteur K2 :*
 #figure(
-      image("K2.png")
+      image("K2.PNG")
     )
 *L’interrepteur K2' :*
 #figure(
-      image("K2'.png")
+      image("K2'.PNG")
     )
 *L’interrepteur K3 :*
 #figure(
-      image("K3.png")
+      image("K3.PNG")
     )
 *L’interrepteur K3' :*
 #figure(
-      image("K3'.png")
+      image("K3'.PNG")
     )
 === Relever les formes d’ondes des tensions composées, U12(t), U23(t), U31(t). Etablir l’expression de Ucheff., en fonction de E.
 #figure(
@@ -65,7 +65,25 @@ La valeur de tension efficace $V_"cheff"$ vaut:
       image("Vcheff TP7.png")
     )
 === Donner l’expression du courant de ligne i1(t)
+
+$ i_A(t) = I_m sin(omega t + phi) $
+
+$ i_B(t) = I_m sin(omega t - 2pi/3 + phi) $
+
+$ i_C(t) = I_m sin(omega t + 2pi/3 + phi) $
+
+$I_m$ : amplitude du courant \
+$omega = 2pi f$, $f = 50 \,"Hz" $ \
+$phi$ : déphasage dû à la charge (fonction de R et L)
+
 === Calculer la puissance Pc reçue par la charge 
+$ P_c = 3  V_"ph" I_"ph" cos(phi) =  $
+$ V_"ph,rms" = frac(E,sqrt(2)) approx frac(180,sqrt(2)) approx 127,3V = $
+$ I_"ph,rms" = frac(V_"ph,rms", Z) = frac("127,3","16,1") = 7,9A $
+$ phi = arctan(omega L,R) = arctan(frac("12,57","10")) approx 51,5 $
+$ cos(phi)=cos(51,5) ≈ 0,62 $
+$ P_"c" ​= 3⋅127,3⋅7,9⋅0,62 = 1872 W $
+
 === Exprimer iTi, et iDi en fonction de iki et du signe de iki. 
 
 == Partie 2: Commande MLI
@@ -93,7 +111,3 @@ La commande MLI, basée sur la comparaison d'une sinusoïde modulante et d'un si
 - Avantage MLI : Qualité de signal supérieure (faible THD), meilleur rendement.
 - Avantage Pleine Onde : Simplicité de commande, coût réduit.
 Choix selon l’application : MLI pour les charges sensibles, pleine onde pour les systèmes économiques.
-
-
-
-

@@ -11,7 +11,7 @@
     image("0.jpeg")
   )
 
-- 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour $$
+- 1. Afficher les chronogrammes de $V_"ch" (t)$ et $i_"ch" (t)$, pour
   #figure(
     image("T5 impulsions.png")
   )
