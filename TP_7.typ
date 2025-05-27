@@ -65,7 +65,25 @@ La valeur de tension efficace $V_"cheff"$ vaut:
       image("Vcheff TP7.png")
     )
 === Donner l’expression du courant de ligne i1(t)
+
+$ i_A(t) = I_m sin(omega t + phi) $
+
+$ i_B(t) = I_m sin(omega t - 2pi/3 + phi) $
+
+$ i_C(t) = I_m sin(omega t + 2pi/3 + phi) $
+
+$I_m$ : amplitude du courant \
+$omega = 2pi f$, $f = 50 \,"Hz" $ \
+$phi$ : déphasage dû à la charge (fonction de R et L)
+
 === Calculer la puissance Pc reçue par la charge 
+$ P_c = 3  V_"ph" I_"ph" cos(phi) =  $
+$ V_"ph,rms" = frac(E,sqrt(2)) approx frac(180,sqrt(2)) approx 127,3V = $
+$ I_"ph,rms" = frac(V_"ph,rms", Z) = frac("127,3","16,1") = 7,9A $
+$ phi = arctan(omega L,R) = arctan(frac("12,57","10")) approx 51,5 $
+$ cos(phi)=cos(51,5) ≈ 0,62 $
+$ P_"c" ​= 3⋅127,3⋅7,9⋅0,62 = 1872 W $
+
 === Exprimer iTi, et iDi en fonction de iki et du signe de iki. 
 
 == Partie 2: Commande MLI
