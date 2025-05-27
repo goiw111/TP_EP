@@ -4,7 +4,7 @@
 #show: it => basic-report(
   doc-category: "Raport de TP",
   doc-title: "TP ELECTRONIQUE DE PUISSANCE",
-  author: "souhail Chahmout, omar manssouri",
+  author: "souhail Chahmout, omar manssouri, Fatema Khay-Ali, Badr Es-Ssababby, Salma Ettaoumy",
   logo: image("logo.png", width: 3cm),
   // <a href="https://www.flaticon.com/free-icons/aerospace" title="aerospace icons">Aerospace icons created by gravisio - Flaticon</a>
   language: "fr",
